@@ -26,9 +26,8 @@ struct ContentView: View {
                 
                 
                 self.menu = Int.random(in: 1...10)
-                let menulist = [กระเพราไก่,ข้าวผัด,สุกกี้,ข้าวคลุกกะปิ]
                 
-                self.name = menulist[self.menu]
+                
                 
                 self.count  += 1
                 
